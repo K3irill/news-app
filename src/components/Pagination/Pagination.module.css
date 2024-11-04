@@ -1,0 +1,41 @@
+.pagination {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+}
+
+.pageNumber {
+	padding: 8px;
+	border: none;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+.pageNumber:hover {
+	background-color: #1c1b1b75;
+}
+.pageNumber:disabled {
+	background-color: #5e00569b;
+	cursor: default;
+}
+.list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow {
+	border: none;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+.arrow:hover {
+	background-color: #1c1b1b75;
+}
+.arrow:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
